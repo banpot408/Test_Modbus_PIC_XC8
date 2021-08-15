@@ -1,13 +1,9 @@
-/*
- * Функции для работы с протоколом ModBus
- */
+
 
 #include <xc.h>
 #include "modbus.h"
 
-/*
- * Функция обработки модбас фрейма
- */
+
 
 void MODBUS_SLAVE(UART_DATA *MODBUS){
     unsigned int tmp;
@@ -46,9 +42,7 @@ void MODBUS_SLAVE(UART_DATA *MODBUS){
 	MODBUS->rxcnt=0;
 	MODBUS->rxtimer=0x00;
 }
-/*
-* Функция чтении мультирегистров (03)
-*/
+
 
 void TX_03(UART_DATA *MODBUS)
 {
@@ -83,9 +77,7 @@ unsigned int m=0,n=0;
    TX_ERROR(MODBUS,0x02);
   }
 }
-/*
- * Функция записи мультирегистров (16)
- */
+
 void TX_16(UART_DATA *MODBUS)
 {
     unsigned int tmp;
@@ -110,9 +102,7 @@ void TX_16(UART_DATA *MODBUS)
     TX_ERROR(MODBUS,0x02) ;
    }
 }
-/*
- * Функция отправки сообщения мастеру
- */
+
 void TX_FRAME(UART_DATA *MODBUS)
 {
       RCSTAbits.CREN=0;
@@ -126,9 +116,7 @@ void TX_FRAME(UART_DATA *MODBUS)
       MODBUS->txlen=0;
       RCSTAbits.CREN=1;
 }
-/*
- * Фукция формирования ошибки
- */
+
 
 void TX_ERROR(UART_DATA *MODBUS,unsigned char error_type)
 {
@@ -139,9 +127,7 @@ void TX_ERROR(UART_DATA *MODBUS,unsigned char error_type)
     MODBUS->txlen=5;                                                    /*длина сообщения*/
 }
 
-/*
- * Функция расчета контрольной суммы
- */
+
 unsigned int CRC16(unsigned char *ptrByte, int byte_cnt){
 unsigned int w=0;
 char shift_cnt;

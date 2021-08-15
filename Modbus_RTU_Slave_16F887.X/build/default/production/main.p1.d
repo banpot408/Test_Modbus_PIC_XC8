@@ -1,8 +1,7 @@
- build/default/production/main.d  \
- build/default/production/main.p1:  \
- main.c  \
+build/default/production/main.p1:  \
+main.c  \
+uart_init.h  \
+type_def.h  \
 init.h  \
 config.h  \
-type_def.h  \
-modbus.h  \
-uart_init.h 
+modbus.h 

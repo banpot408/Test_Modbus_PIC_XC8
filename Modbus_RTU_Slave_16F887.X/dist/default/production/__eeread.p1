@@ -1,53 +1,24 @@
 Version 4.0 HI-TECH Software Intermediate Code
-"1546 C:/Program Files/Microchip/MPLABX/v5.45/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h
-[; ;C:/Program Files/Microchip/MPLABX/v5.45/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 1546:     struct {
-[s S57 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
-[n S57 . TRISC0 TRISC1 TRISC2 TRISC3 TRISC4 TRISC5 TRISC6 TRISC7 ]
-"1545
-[; ;C:/Program Files/Microchip/MPLABX/v5.45/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 1545: typedef union {
-[u S56 `S57 1 ]
-[n S56 . . ]
-"1557
-[; ;C:/Program Files/Microchip/MPLABX/v5.45/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 1557: extern volatile TRISCbits_t TRISCbits __attribute__((address(0x087)));
-[v _TRISCbits `VS56 ~T0 @X0 0 e@135 ]
-"296
-[; ;C:/Program Files/Microchip/MPLABX/v5.45/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 296:     struct {
-[s S10 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
-[n S10 . RC0 RC1 RC2 RC3 RC4 RC5 RC6 RC7 ]
-"295
-[; ;C:/Program Files/Microchip/MPLABX/v5.45/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 295: typedef union {
-[u S9 `S10 1 ]
-[n S9 . . ]
-"307
-[; ;C:/Program Files/Microchip/MPLABX/v5.45/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 307: extern volatile PORTCbits_t PORTCbits __attribute__((address(0x007)));
-[v _PORTCbits `VS9 ~T0 @X0 0 e@7 ]
-"67 ./type_def.h
-[; ;./type_def.h: 67:     {
-[s S141 `uc 1 `uc 1 ]
-[n S141 . LB HB ]
-"72
-[; ;./type_def.h: 72:     {
-[s S142 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
-[n S142 . b0 b1 b2 b3 b4 b5 b6 b7 b8 b9 b10 b11 b12 b13 b14 b15 ]
-"63
-[; ;./type_def.h: 63: {
-[u S140 `ui 1 `uc -> 2 `i `S141 1 `S142 1 ]
-[n S140 . Val v byte bits ]
-"2556 C:/Program Files/Microchip/MPLABX/v5.45/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h
-[; ;C:/Program Files/Microchip/MPLABX/v5.45/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 2556: extern volatile unsigned char TXSTA __attribute__((address(0x098)));
-[v _TXSTA `Vuc ~T0 @X0 0 e@152 ]
-"1038
-[; ;C:/Program Files/Microchip/MPLABX/v5.45/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 1038: extern volatile unsigned char RCSTA __attribute__((address(0x018)));
-[v _RCSTA `Vuc ~T0 @X0 0 e@24 ]
-"3335
-[; ;C:/Program Files/Microchip/MPLABX/v5.45/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 3335: extern volatile unsigned char BAUDCTL __attribute__((address(0x187)));
-[v _BAUDCTL `Vuc ~T0 @X0 0 e@391 ]
-"2704
-[; ;C:/Program Files/Microchip/MPLABX/v5.45/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 2704: extern volatile unsigned char SPBRGH __attribute__((address(0x09A)));
-[v _SPBRGH `Vuc ~T0 @X0 0 e@154 ]
-"2642
-[; ;C:/Program Files/Microchip/MPLABX/v5.45/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 2642: extern volatile unsigned char SPBRG __attribute__((address(0x099)));
-[v _SPBRG `Vuc ~T0 @X0 0 e@153 ]
+"3505 C:/Program Files/Microchip/MPLABX/v5.45/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h
+[; ;C:/Program Files/Microchip/MPLABX/v5.45/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 3505:     struct {
+[s S137 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :3 `uc 1 :1 `uc 1 ]
+[n S137 . RD WR WREN WRERR . EEPGD ]
+"3504
+[; ;C:/Program Files/Microchip/MPLABX/v5.45/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 3504: typedef union {
+[u S136 `S137 1 ]
+[n S136 . . ]
+"3514
+[; ;C:/Program Files/Microchip/MPLABX/v5.45/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 3514: extern volatile EECON1bits_t EECON1bits __attribute__((address(0x18C)));
+[v _EECON1bits `VS136 ~T0 @X0 0 e@396 ]
+"3257
+[; ;C:/Program Files/Microchip/MPLABX/v5.45/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 3257: extern volatile unsigned char EEADR __attribute__((address(0x10D)));
+[v _EEADR `Vuc ~T0 @X0 0 e@269 ]
+"3499
+[; ;C:/Program Files/Microchip/MPLABX/v5.45/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 3499: extern volatile unsigned char EECON1 __attribute__((address(0x18C)));
+[v _EECON1 `Vuc ~T0 @X0 0 e@396 ]
+"3245
+[; ;C:/Program Files/Microchip/MPLABX/v5.45/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 3245: extern volatile unsigned char EEDATA __attribute__((address(0x10C)));
+[v _EEDATA `Vuc ~T0 @X0 0 e@268 ]
 "54 C:/Program Files/Microchip/MPLABX/v5.45/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h
 [; ;C:/Program Files/Microchip/MPLABX/v5.45/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 54: __asm("INDF equ 00h");
 [; <" INDF equ 00h ;# ">
@@ -282,44 +253,32 @@ Version 4.0 HI-TECH Software Intermediate Code
 "3546
 [; ;C:/Program Files/Microchip/MPLABX/v5.45/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 3546: __asm("EECON2 equ 018Dh");
 [; <" EECON2 equ 018Dh ;# ">
-"8 uart_init.c
-[; ;uart_init.c: 8: void uart_init(unsigned int baud){
-[v _uart_init `(v ~T0 @X0 1 ef1`ui ]
+"6 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\pic\__eeread.c
+[; ;C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\pic\__eeread.c: 6: eeprom_read(unsigned char addr)
+[v _eeprom_read `(uc ~T0 @X0 1 ef1`uc ]
+"7
+[; ;C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\pic\__eeread.c: 7: {
 {
-[e :U _uart_init ]
-[v _baud `ui ~T0 @X0 1 r1 ]
+[e :U _eeprom_read ]
+"6
+[; ;C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\pic\__eeread.c: 6: eeprom_read(unsigned char addr)
+[v _addr `uc ~T0 @X0 1 r1 ]
+"7
+[; ;C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\pic\__eeread.c: 7: {
 [f ]
-"10
-[; ;uart_init.c: 10:     TRISCbits.TRISC7=1;
-[e = . . _TRISCbits 0 7 -> -> 1 `i `uc ]
-"11
-[; ;uart_init.c: 11:     TRISCbits.TRISC6=0;
-[e = . . _TRISCbits 0 6 -> -> 0 `i `uc ]
-"12
-[; ;uart_init.c: 12:     PORTCbits.RC6=1;
-[e = . . _PORTCbits 0 6 -> -> 1 `i `uc ]
-"14
-[; ;uart_init.c: 14:     WORD_VAL bRate;
-[v _bRate `S140 ~T0 @X0 1 a ]
-"15
-[; ;uart_init.c: 15:     bRate.Val=(unsigned int) ((20000000L + baud*2) / (baud*4) - 1);
-[e = . _bRate 0 -> - / + -> 20000000 `l -> * _baud -> -> 2 `i `ui `l -> * _baud -> -> 4 `i `ui `l -> -> 1 `i `l `ui ]
-"17
-[; ;uart_init.c: 17:     TXSTA=0b00100100;
-[e = _TXSTA -> -> 36 `i `uc ]
+"8
+[; ;C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\pic\__eeread.c: 8:  do
+[e :U 141 ]
+"9
+[; ;C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\pic\__eeread.c: 9:   __asm("clrwdt");
+[; <" clrwdt ;# ">
+[e $ != -> . . _EECON1bits 0 1 `i -> 0 `i 141  ]
+[e :U 140 ]
 "18
-[; ;uart_init.c: 18:     RCSTA=0b10010000;
-[e = _RCSTA -> -> 144 `i `uc ]
+[; ;C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\pic\__eeread.c: 18:  return ( EEADR = addr, EECON1 &= 0x3F, EECON1bits.RD = 1, EEDATA);
+[e ) ; ; ; = _EEADR _addr =& _EECON1 -> -> 63 `i `Vuc = . . _EECON1bits 0 0 -> -> 1 `i `uc _EEDATA ]
+[e $UE 138  ]
 "19
-[; ;uart_init.c: 19:     BAUDCTL=0b00001000;
-[e = _BAUDCTL -> -> 8 `i `uc ]
-"21
-[; ;uart_init.c: 21:     SPBRGH=bRate.byte.HB;
-[e = _SPBRGH . . _bRate 2 1 ]
-"22
-[; ;uart_init.c: 22:     SPBRG=bRate.byte.LB;
-[e = _SPBRG . . _bRate 2 0 ]
-"25
-[; ;uart_init.c: 25: }
-[e :UE 143 ]
+[; ;C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\pic\__eeread.c: 19: }
+[e :UE 138 ]
 }

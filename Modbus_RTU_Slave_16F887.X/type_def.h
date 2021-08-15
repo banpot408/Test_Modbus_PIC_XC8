@@ -36,7 +36,7 @@ typedef float                   SINGLE;                         /*32- bit float*
 /* MPLAB C Compiler for PIC18 does not support 64-bit integers */
 
 __EXTENSION
-typedef signed char             CHAR;                           /* 8-bit signed    */
+//typedef signed char             CHAR;                           /* 8-bit signed    */
 typedef signed short int        SHORT;                          /* 16-bit signed   */
 typedef signed long             SLONG;                           /* 32-bit signed   */
 

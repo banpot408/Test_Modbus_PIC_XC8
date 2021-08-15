@@ -20,7 +20,7 @@ unsigned int adc_ch0,adc_ch1,adc_ch2,adc_ch3;
 
 
 
-void interrupt isr (void) {
+void interrupt_isr (void) {
     
     if (INTCONbits.T0IF && INTCONbits.T0IE){
         if (TickAdc<=CONST_TICK_ADC){                  
